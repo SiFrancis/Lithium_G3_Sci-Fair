@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Krona+One&display=swap');
+
 body {
     background: url("https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147135/baltic_oli_2020228_lrg.jpg") no-repeat center fixed;
     background-size: cover;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#mainContainer {
+    background-color: white;
+}
+
+#accordion {
+    width: 99%;
 }

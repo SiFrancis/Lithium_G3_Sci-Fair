@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Krona+One&display=swap');
 
 body {
-    background: url("background.jpg") no-repeat center fixed;
+    background: url("background-min.jpg") no-repeat center fixed;
     background-size: cover;
     font-family: 'DM Sans', sans-serif;
 }

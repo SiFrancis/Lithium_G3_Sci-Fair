@@ -1,8 +1,8 @@
 // Get the container element
-var btnContainer = document.getElementById("topicBtns");
+var btnContainer = document.getElementById("btn-container");
 
 // Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("topicBtn");
+var btns = btnContainer.getElementsByClassName("topic-btn");
 
 // Loop through the buttons and add the active class to the current/clicked button
 for (var i = 0; i < btns.length; i++) {

@@ -8,17 +8,22 @@ body {
 }
 
 #main {
-    border-color: var(--primary-color);
+    --bs-border-color: var(--primary-color)
+}
+
+#btn-container {
+    background-color: var(--primary-color)
 }
 
 .topic-btn {
-    --bs-btn-color: var(--primary-color);
-    --bs-btn-border-color: var(--primary-color);
-    --bs-btn-border-radius: 2rem;
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: var(--primary-color);
-    --bs-btn-hover-border-color: var(--primary-color);
-    --bs-btn-active-color: var(--bs-white);
-    --bs-btn-active-bg: var(--primary-color);
-    --bs-btn-active-border-color: var(--primary-color);
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--secondary-color);
+    --bs-btn-border-radius: 1.5rem;
+    --bs-btn-border-width: 0.15rem;
+    --bs-btn-hover-color: var(--primary-color);
+    --bs-btn-hover-bg: var(--secondary-color);
+    --bs-btn-hover-border-color: var(--secondary-color);
+    --bs-btn-active-color: var(--primary-color);
+    --bs-btn-active-bg: var(--secondary-color);
+    --bs-btn-active-border-color: var(--secondary-color);
 }

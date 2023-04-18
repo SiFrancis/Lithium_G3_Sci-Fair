@@ -1,1 +1,0 @@
-# Lithium_G3_Sci-Fair

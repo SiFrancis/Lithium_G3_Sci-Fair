@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #0B4135;
+    --secondary-color: #E8FCCF;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+#main {
+    border-color: var(--primary-color);
+}
+
+.topic-btn {
+    --bs-btn-color: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-border-radius: 2rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--primary-color);
+    --bs-btn-hover-border-color: var(--primary-color);
+    --bs-btn-active-color: var(--bs-white);
+    --bs-btn-active-bg: var(--primary-color);
+    --bs-btn-active-border-color: var(--primary-color);
+}

@@ -32,10 +32,11 @@ body {
     --bs-btn-active-color: var(--primary-color);
     --bs-btn-active-bg: var(--secondary-color);
     --bs-btn-active-border-color: var(--secondary-color);
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 2.5em;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
     border-width: 0.1px;
+    margin: 0 0.25rem;
 }
 
 #main-part {color: var(--primary-color);}

@@ -12,12 +12,15 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+var main_part = document.getElementById("main-part");
 var main_desc = document.getElementById("main-desc");
 var main_text = document.getElementById("main-text");
 
+main_part.innerHTML = "Part " + document.getElementById("intro-desc").part + ":";
 main_desc.innerHTML = document.getElementById("intro-desc").innerHTML;
-main_text = document.getElementById("intro").innerHTML;
+main_text.innerHTML = document.getElementById("intro").innerHTML;
 function showTopic(name) {
+    main_part.innerHTML = "Part " + document.getElementById(name + "-desc").part + ":"
     main_desc.innerHTML = document.getElementById(name + "-desc").innerHTML;
-    document.getElementById("main-text").innerHTML = document.getElementById(name).innerHTML;
+    main_text.innerHTML = document.getElementById(name).innerHTML;
 }

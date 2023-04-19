@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #0b4135;
-    --secondary-color: #e8fccf;
+    --secondary-color: #fdffd0;
 }
 
 body {
@@ -10,13 +10,14 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-#title {
+.title {
     font-family: 'Krona One', sans-serif;
     color: var(--primary-color);
 }
 
 #main {
     --bs-border-color: var(--primary-color);
+    width: 90%;
 }
 
 #btn-container {
@@ -24,15 +25,17 @@ body {
 }
 
 .topic-btn {
-    --bs-btn-font-weight: 600;
     --bs-btn-color: var(--secondary-color);
-    --bs-btn-border-radius: 1.5rem;
     --bs-btn-hover-color: var(--primary-color);
     --bs-btn-hover-bg: var(--secondary-color);
     --bs-btn-hover-border-color: var(--secondary-color);
     --bs-btn-active-color: var(--primary-color);
     --bs-btn-active-bg: var(--secondary-color);
     --bs-btn-active-border-color: var(--secondary-color);
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 2.5em;
+    border-width: 0.1px;
 }
 
 #main-part {color: var(--primary-color);}

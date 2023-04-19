@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Krona+One&display=swap');
+
 :root {
     --primary-color: #0B4135;
     --secondary-color: #E8FCCF;
@@ -5,14 +7,19 @@
 
 body {
     background-color: var(--secondary-color);
+    font-family: 'DM Sans', sans-serif;
+}
+
+#title {
+    font-family: 'Krona One', sans-serif;
 }
 
 #main {
-    --bs-border-color: var(--primary-color)
+    --bs-border-color: var(--primary-color);
 }
 
 #btn-container {
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
 }
 
 .topic-btn {
@@ -27,4 +34,9 @@ body {
     --bs-btn-active-border-color: var(--secondary-color);
 }
 
-#main-desc {color: var(--secondary-color);}
+#main-desc {
+    color: var(--primary-color);
+    font-family: 'Krona One', sans-serif;
+}
+
+#main-text {text-align: justify;}
